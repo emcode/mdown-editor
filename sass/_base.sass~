@@ -1,0 +1,16 @@
+// Core variables and mixins
+@import "bootstrap/variables"
+@import "bootstrap/mixins"
+
+// CSS Reset
+@import "bootstrap/reset"
+
+// Grid system and page structure
+@import "bootstrap/scaffolding"
+@import "bootstrap/grid"
+@import "bootstrap/layouts"
+
+@import "bootstrap/forms";
+
+@mixin bd($color: lime)
+    border: 1px dotted $color
