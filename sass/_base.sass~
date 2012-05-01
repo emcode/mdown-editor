@@ -1,16 +1,11 @@
 // Core variables and mixins
-@import "bootstrap/variables"
-@import "bootstrap/mixins"
+//@import "bootstrap/variables"
+//@import "bootstrap/mixins"
 
 // CSS Reset
-@import "bootstrap/reset"
+//@import "bootstrap/reset"
+//@import "bootstrap/forms"
 
-// Grid system and page structure
-@import "bootstrap/scaffolding"
-@import "bootstrap/grid"
-@import "bootstrap/layouts"
-
-@import "bootstrap/forms";
-
-@mixin bd($color: lime)
-    border: 1px dotted $color
+//@import "compass/reset"
+@import "compass/utilities"
+@import "blueprint"
